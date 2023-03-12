@@ -5,9 +5,21 @@ function Library:Window(a, b, c, d, e)
     local h = game:GetService("RunService")
     local i = Instance.new("ScreenGui")
     local j = Instance.new("Frame")
+    local lol = Instance.new("UICorner")
+    lol.Parent = j
+    lol.CornerRadius = UDim.new(0, 5)
     local k = Instance.new("Frame")
+    local lol = Instance.new("UICorner")
+    lol.Parent = k
+    lol.CornerRadius = UDim.new(0, 5)
     local l = Instance.new("Frame")
+     local lol = Instance.new("UICorner")
+    lol.Parent = l
+    lol.CornerRadius = UDim.new(0, 5)
     local m = Instance.new("Frame")
+     local lol = Instance.new("UICorner")
+    lol.Parent = m
+    lol.CornerRadius = UDim.new(0, 5)
     local n = Instance.new("UIListLayout")
     local o = Instance.new("TextLabel")
     local p = Instance.new("Frame")
@@ -58,7 +70,7 @@ function Library:Window(a, b, c, d, e)
     l.Size = UDim2.new(0, 499, 0, k.Size.Y.Offset - 38)
     m.Name = "Heading"
     m.Parent = k
-    m.BackgroundColor3 = Color3.new(1, 1, 1)
+    m.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
     m.BackgroundTransparency = 1
     m.BorderColor3 = Color3.new(0, 0, 0)
     m.BorderSizePixel = 0
@@ -70,7 +82,7 @@ function Library:Window(a, b, c, d, e)
     n.Padding = UDim.new(0, 9)
     o.Name = "Title"
     o.Parent = m
-    o.BackgroundColor3 = Color3.new(1, 1, 1)
+    o.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
     o.BackgroundTransparency = 1
     o.Position = UDim2.new(0.0137524558, 0, 0.00199999125, 0)
     o.Size = UDim2.new(0, #a * 6.833333333333333, 0, 23)
@@ -105,7 +117,7 @@ function Library:Window(a, b, c, d, e)
     p.Position = UDim2.new(0.0124223605, 0, 0.0099593997, 0)
     p.Size = UDim2.new(0, 470, 0, x.CanvasSize.Y.Offset)
     r.Parent = l
-    r.BackgroundColor3 = Color3.new(1, 1, 1)
+    r.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
     r.BackgroundTransparency = 1
     r.BorderColor3 = Color3.new(0, 0, 0)
     r.BorderSizePixel = 0
@@ -152,38 +164,38 @@ function Library:Window(a, b, c, d, e)
     local E = Instance.new("TextLabel")
     E.Name = "Differ"
     E.Parent = m
-    E.BackgroundColor3 = Color3.new(1, 1, 1)
+    E.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
     E.BackgroundTransparency = 1
     E.Position = UDim2.new(0.0137524558, 0, 0.00199999125, 0)
     E.Size = UDim2.new(0, 6, 0, 23)
     E.Font = Enum.Font.RobotoMono
     E.Text = ""
-    E.TextColor3 = Color3.fromRGB(255, 255, 255)
+    E.TextColor3 = Color3.fromRGB(230, 230, 230)
     E.TextSize = 14
     E.TextStrokeTransparency = 0.4
     E.TextXAlignment = Enum.TextXAlignment.Left
     D.Name = "Label"
     D.Parent = m
-    D.BackgroundColor3 = Color3.new(1, 1, 1)
+    D.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
     D.BackgroundTransparency = 1
     D.Position = UDim2.new(0.0137524558, 0, 0.00199999125, 0)
     D.Size = UDim2.new(0, 6.833333333333333, 0, 23)
     D.Font = Enum.Font.RobotoMono
     D.Text = ""
-    D.TextColor3 = Color3.new(1, 1, 1)
+    D.TextColor3 = Color3.fromRGB(230, 230, 230)
     D.TextSize = 14
     D.TextStrokeTransparency = 0.4
     local D = Instance.new("TextLabel")
     local E = Instance.new("TextLabel")
     E.Name = "Differ"
     E.Parent = m
-    E.BackgroundColor3 = Color3.new(1, 1, 1)
+    E.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
     E.BackgroundTransparency = 1
     E.Position = UDim2.new(0.0137524558, 0, 0.00199999125, 0)
     E.Size = UDim2.new(0, 6, 0, 23)
     E.Font = Enum.Font.RobotoMono
     E.Text = ""
-    E.TextColor3 = Color3.fromRGB(255, 255, 255)
+    E.TextColor3 = Color3.fromRGB(230, 230, 230)
     E.TextSize = 14
     E.TextStrokeTransparency = 0.4
     spawn(
@@ -203,7 +215,7 @@ function Library:Window(a, b, c, d, e)
                         altersize(F)
                         TabCounter = TabCounter + 1
                         if TabCounter == 1 then
-                            F.TextColor3 = Color3.fromRGB(255, 255, 255)
+                            F.TextColor3 = Color3.fromRGB(230, 230, 230)
                             for t, H in next, F.Contents:GetChildren() do
                                 s = F
                                 H.Visible = true
@@ -223,19 +235,19 @@ function Library:Window(a, b, c, d, e)
         local K = Instance.new("TextLabel")
         K.Name = "Differ"
         K.Parent = m
-        K.BackgroundColor3 = Color3.new(1, 1, 1)
+        K.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
         K.BackgroundTransparency = 1
         K.Position = UDim2.new(0.0137524558, 0, 0.00199999125, 0)
         K.Size = UDim2.new(0, 6, 0, 23)
         K.Font = Enum.Font.RobotoMono
         K.Text = ""
-        K.TextColor3 = Color3.fromRGB(255, 255, 255)
+        K.TextColor3 = Color3.fromRGB(230, 230, 230)
         K.TextSize = 14
         K.TextStrokeTransparency = 0.4
         K.TextXAlignment = Enum.TextXAlignment.Left
         J.Name = "Label"
         J.Parent = m
-        J.BackgroundColor3 = Color3.new(1, 1, 1)
+        J.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
         J.BackgroundTransparency = 1
         J.Position = UDim2.new(0.0137524558, 0, 0.00199999125, 0)
         J.Size = UDim2.new(0, #a * 6.833333333333333, 0, 23)
@@ -251,13 +263,13 @@ function Library:Window(a, b, c, d, e)
         local M = Instance.new("Folder")
         L.Name = "Tab"
         L.Parent = r
-        L.BackgroundColor3 = Color3.new(1, 1, 1)
+        L.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
         L.BackgroundTransparency = 1
         L.Size = UDim2.new(0, 24, 0, 23)
         L.AutoButtonColor = false
         L.Font = Enum.Font.RobotoMono
         L.Text = a
-        L.TextColor3 = Color3.new(1, 1, 1)
+        L.TextColor3 = Color3.fromRGB(230, 230, 230)
         L.TextSize = 14
         L.TextStrokeTransparency = 0.4
         M.Name = "Contents"
@@ -277,7 +289,7 @@ function Library:Window(a, b, c, d, e)
                         end
                     end
                 end
-                y(L, {TextColor3 = Color3.fromRGB(255, 255, 255)})
+                y(L, {TextColor3 = Color3.fromRGB(230, 230, 230)})
                 for t, H in next, M:GetChildren() do
                     s = L
                     H.Visible = true
@@ -308,13 +320,13 @@ function Library:Window(a, b, c, d, e)
             P.Size = UDim2.new(0, 220, 0, 84)
             Q.Name = "Title"
             Q.Parent = P
-            Q.BackgroundColor3 = Color3.new(1, 1, 1)
+            Q.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
             Q.BackgroundTransparency = 1
             Q.Position = UDim2.new(0.0260000005, 0, -1.05768967, 0)
             Q.Size = UDim2.new(0, 178, 0, 12)
             Q.Font = Enum.Font.RobotoMono
             Q.Text = a
-            Q.TextColor3 = Color3.new(1, 1, 1)
+            Q.TextColor3 = Color3.fromRGB(230, 230, 230)
             Q.TextSize = 14
             Q.TextStrokeTransparency = 0.4
             Q.TextXAlignment = Enum.TextXAlignment.Left
@@ -344,8 +356,11 @@ function Library:Window(a, b, c, d, e)
                 U.AutoButtonColor = false
                 U.Font = Enum.Font.RobotoMono
                 U.Text = a
-                U.TextColor3 = Color3.new(1, 1, 1)
+                U.TextColor3 = Color3.fromRGB(230, 230, 230)
                 U.TextSize = 14
+                local lol = Instance.new("UICorner")
+                lol.Parent = U
+                lol.CornerRadius = UDim.new(0, 3)
                 U.TextStrokeTransparency = 0.4
                 U.MouseButton1Click:Connect(T)
             end
@@ -353,6 +368,9 @@ function Library:Window(a, b, c, d, e)
                 local V = getgenv().ArsoniaNum
                 getgenv().ArsoniaNum = getgenv().ArsoniaNum + 1
                 local W = Instance.new("TextButton")
+                local lol = Instance.new("UICorner")
+                lol.Parent = W
+                lol.CornerRadius = UDim.new(0, 3)
                 local X = Instance.new("TextLabel")
                 W.Name = "Toggle"
                 W.Parent = P
@@ -363,11 +381,11 @@ function Library:Window(a, b, c, d, e)
                 W.AutoButtonColor = false
                 W.Font = Enum.Font.RobotoMono
                 W.Text = ""
-                W.TextColor3 = Color3.new(1, 1, 1)
+                W.TextColor3 = Color3.fromRGB(230, 230, 230)
                 W.TextSize = 14
                 W.TextStrokeTransparency = 0.4
                 X.Parent = W
-                X.BackgroundColor3 = Color3.new(1, 1, 1)
+                X.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
                 X.BackgroundTransparency = 1
                 X.Position = UDim2.new(1.67999995, 0, -0.0149999997, 0)
                 X.Size = UDim2.new(0, 199, 0, 13)
@@ -420,7 +438,7 @@ function Library:Window(a, b, c, d, e)
                 local X = Instance.new("TextLabel")
                 b.Name = "Color"
                 b.Parent = P
-                b.BackgroundColor3 = Color3.new(1, 1, 1)
+                b.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
                 b.BackgroundTransparency = 1
                 b.Position = UDim2.new(1.67999995, 0, -0.0149999997, 0)
                 b.Size = UDim2.new(0, 199, 0, 11)
@@ -432,19 +450,19 @@ function Library:Window(a, b, c, d, e)
                 b.TextStrokeTransparency = 0.40000000596046
                 b.TextXAlignment = Enum.TextXAlignment.Left
                 a0.Parent = b
-                a0.BackgroundColor3 = Color3.new(1, 1, 1)
+                a0.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
                 a0.BorderColor3 = Color3.new(0, 0, 0)
                 a0.Position = UDim2.new(1.05142057, 0, -0.0228970051, 0)
                 a0.Size = UDim2.new(0, 13, 0, 13)
                 a0.AutoButtonColor = false
                 a0.Font = Enum.Font.RobotoMono
                 a0.Text = ""
-                a0.TextColor3 = Color3.new(1, 1, 1)
+                a0.TextColor3 = Color3.fromRGB(230, 230, 230)
                 a0.TextSize = 14
                 a0.TextStrokeTransparency = 0
                 k.Name = "Main"
                 k.Parent = b
-                k.BackgroundColor3 = Color3.new(1, 1, 1)
+                k.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
                 k.BackgroundTransparency = 1
                 k.BorderSizePixel = 0
                 k.ClipsDescendants = true
@@ -464,7 +482,7 @@ function Library:Window(a, b, c, d, e)
                 a2.Name = "Gradient"
                 a2.Parent = a1
                 a2.AnchorPoint = Vector2.new(0.5, 0.5)
-                a2.BackgroundColor3 = Color3.new(1, 1, 1)
+                a2.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
                 a2.BorderColor3 = Color3.new(0.627451, 0.627451, 0.627451)
                 a2.BorderSizePixel = 0
                 a2.ClipsDescendants = true
@@ -474,7 +492,7 @@ function Library:Window(a, b, c, d, e)
                 a2.Image = "rbxassetid://328298876"
                 a3.Name = "Cursor"
                 a3.Parent = a2
-                a3.BackgroundColor3 = Color3.new(1, 1, 1)
+                a3.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
                 a3.BorderColor3 = Color3.new(0, 0, 0)
                 a3.BorderSizePixel = 0
                 a3.Position = UDim2.new(1, -1, 0, 1)
@@ -505,7 +523,7 @@ function Library:Window(a, b, c, d, e)
                 a6.PlaceholderColor3 = Color3.new(0.764706, 0.764706, 0.764706)
                 a6.PlaceholderText = "R"
                 a6.Text = ""
-                a6.TextColor3 = Color3.new(1, 1, 1)
+                a6.TextColor3 = Color3.fromRGB(230, 230, 230)
                 a6.TextSize = 14
                 a7.Name = "G"
                 a7.Parent = a1
@@ -517,7 +535,7 @@ function Library:Window(a, b, c, d, e)
                 a7.PlaceholderColor3 = Color3.new(0.764706, 0.764706, 0.764706)
                 a7.PlaceholderText = "G"
                 a7.Text = ""
-                a7.TextColor3 = Color3.new(1, 1, 1)
+                a7.TextColor3 = Color3.fromRGB(230, 230, 230)
                 a7.TextSize = 14
                 a8.Name = "B"
                 a8.Parent = a1
@@ -529,7 +547,7 @@ function Library:Window(a, b, c, d, e)
                 a8.PlaceholderColor3 = Color3.new(0.764706, 0.764706, 0.764706)
                 a8.PlaceholderText = "B"
                 a8.Text = ""
-                a8.TextColor3 = Color3.new(1, 1, 1)
+                a8.TextColor3 = Color3.fromRGB(230, 230, 230)
                 a8.TextSize = 14
                 a9.Name = "Rainbow"
                 a9.Parent = a1
@@ -540,11 +558,11 @@ function Library:Window(a, b, c, d, e)
                 a9.AutoButtonColor = false
                 a9.Font = Enum.Font.RobotoMono
                 a9.Text = ""
-                a9.TextColor3 = Color3.new(1, 1, 1)
+                a9.TextColor3 = Color3.fromRGB(230, 230, 230)
                 a9.TextSize = 14
                 a9.TextStrokeTransparency = 0
                 X.Parent = a9
-                X.BackgroundColor3 = Color3.new(1, 1, 1)
+                X.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
                 X.BackgroundTransparency = 1
                 X.Position = UDim2.new(1.83384347, 0, -0.0150005631, 0)
                 X.Size = UDim2.new(0, 67, 0, 13)
@@ -573,6 +591,9 @@ function Library:Window(a, b, c, d, e)
                     T(ai)
                     return ai
                 end
+                local lol = Instance.new("UICorner")
+                lol.Parent = a0
+                lol.CornerRadius = UDim.new(0, 3)
                 local aj = false
                 local function ak(D, E)
                     a0.BackgroundColor3 = D
@@ -658,7 +679,7 @@ function Library:Window(a, b, c, d, e)
                     al(_)
                 else
                     T = _
-                    al(Color3.fromRGB(255, 255, 255))
+                    al(Color3.fromRGB(230, 230, 230))
                 end
                 ah()
                 a0.MouseButton1Click:Connect(
@@ -743,6 +764,15 @@ function Library:Window(a, b, c, d, e)
                 local aE
                 local T
                 local a
+                local lol = Instance.new("UICorner")
+                lol.Parent = U
+                lol.CornerRadius = UDim.new(0, 3)
+                local lol = Instance.new("UICorner")
+                lol.Parent = l
+                lol.CornerRadius = UDim.new(0, 2)
+                local lol = Instance.new("UICorner")
+                lol.Parent = aB
+                lol.CornerRadius = UDim.new(0, 2)
                 for t, aF in next, {...} do
                     aD = type(aF)
                     if aD == "table" then
@@ -757,7 +787,7 @@ function Library:Window(a, b, c, d, e)
                 getgenv().ArsoniaNum = getgenv().ArsoniaNum + 1
                 aB.Name = "Dropdown"
                 aB.Parent = P
-                aB.BackgroundColor3 = Color3.new(1, 1, 1)
+                aB.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
                 aB.BackgroundTransparency = 1
                 aB.Position = UDim2.new(0, 0, 2.39047599, 0)
                 aB.Size = UDim2.new(0, 178, 0, 39)
@@ -778,7 +808,7 @@ function Library:Window(a, b, c, d, e)
                 U.AutoButtonColor = false
                 U.Font = Enum.Font.RobotoMono
                 U.Text = " " .. aE[1]
-                U.TextColor3 = Color3.new(1, 1, 1)
+                U.TextColor3 = Color3.fromRGB(230, 230, 230)
                 U.TextSize = 14
                 U.TextStrokeTransparency = 0.40000000596046
                 U.TextXAlignment = Enum.TextXAlignment.Left
@@ -820,9 +850,12 @@ function Library:Window(a, b, c, d, e)
                     U.AutoButtonColor = false
                     U.Font = Enum.Font.RobotoMono
                     U.Text = " " .. a
-                    U.TextColor3 = Color3.new(1, 1, 1)
+                    U.TextColor3 = Color3.fromRGB(230, 230, 230)
                     U.TextSize = 14
                     U.TextStrokeTransparency = 0.40000000596046
+                    local lol = Instance.new("UICorner")
+                lol.Parent = U
+                lol.CornerRadius = UDim.new(0, 2)
                     U.TextXAlignment = Enum.TextXAlignment.Left
                     local function aL()
                         aK(a)
@@ -873,7 +906,7 @@ function Library:Window(a, b, c, d, e)
                 local aS = false
                 aP.Name = "Keybind"
                 aP.Parent = P
-                aP.BackgroundColor3 = Color3.new(1, 1, 1)
+                aP.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
                 aP.BackgroundTransparency = 1
                 aP.Position = UDim2.new(0, 0, 1.98395073, 0)
                 aP.Size = UDim2.new(0, 102, 0, 12)
@@ -893,7 +926,7 @@ function Library:Window(a, b, c, d, e)
                 U.AutoButtonColor = false
                 U.Font = Enum.Font.RobotoMono
                 U.Text = "None"
-                U.TextColor3 = Color3.new(1, 1, 1)
+                U.TextColor3 = Color3.fromRGB(230, 230, 230)
                 U.TextSize = 14
                 U.TextStrokeTransparency = 0.4
                 U.TextXAlignment = Enum.TextXAlignment.Right
@@ -1022,8 +1055,11 @@ function Library:Window(a, b, c, d, e)
                 local b2
                 aY = aY - aX
                 aZ.Name = "Slider"
+                local lol = Instance.new("UICorner")
+                lol.Parent = aZ
+                lol.CornerRadius = UDim.new(0, 2)
                 aZ.Parent = P
-                aZ.BackgroundColor3 = Color3.new(1, 1, 1)
+                aZ.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
                 aZ.BackgroundTransparency = 1
                 aZ.Position = UDim2.new(0, 0, 1.86666656, 0)
                 aZ.Size = UDim2.new(0, 178, 0, 39)
@@ -1045,7 +1081,7 @@ function Library:Window(a, b, c, d, e)
                 a_.AutoButtonColor = false
                 a_.Font = Enum.Font.RobotoMono
                 a_.Text = ""
-                a_.TextColor3 = Color3.new(1, 1, 1)
+                a_.TextColor3 = Color3.fromRGB(230, 230, 230)
                 a_.TextSize = 14
                 a_.TextStrokeTransparency = 0.4
                 a0.Parent = a_
@@ -1061,13 +1097,13 @@ function Library:Window(a, b, c, d, e)
                 b0.Name = "Num"
                 b0.Parent = aZ
                 b0.Active = true
-                b0.BackgroundColor3 = Color3.new(1, 1, 1)
+                b0.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
                 b0.BackgroundTransparency = 1
                 b0.Position = UDim2.new(0, 110, 0, 0)
                 b0.Size = UDim2.new(0, 113, 0, 18)
                 b0.Font = Enum.Font.RobotoMono
                 b0.Text = tostring(aX)
-                b0.TextColor3 = Color3.new(1, 1, 1)
+                b0.TextColor3 = Color3.fromRGB(230, 230, 230)
                 b0.TextSize = 14
                 b0.TextStrokeTransparency = 0.4
                 b0.TextXAlignment = 1
@@ -1077,10 +1113,11 @@ function Library:Window(a, b, c, d, e)
                     percentage = math.clamp(b5, 0, 1)
                     a0:TweenSizeAndPosition(
                         UDim2.new(percentage, 0, 1, 0),
-                        UDim2.new(percentage / 100, -2, b4.Y.Scale, b4.Y.Offset),
-                        nil,
-                        nil,
-                        0.08
+                        UDim2.new(percentage / 100, -2, 0, 0),
+                        Enum.EasingDirection.Out,
+                        Enum.EasingStyle.Sine,
+                        0.2,
+                        false
                     )
                     local b6 = math.floor(math.floor(aY * percentage * aY) / aY) + aX
                     if aX == b6 then
@@ -1091,6 +1128,15 @@ function Library:Window(a, b, c, d, e)
                     T(tonumber(b0.Text))
                     getgenv().ArsoniaSettings[V] = {SetVal = b3, Val = {tonumber(b0.Text)}}
                 end
+                local lol = Instance.new("UICorner")
+                lol.Parent = W
+                lol.CornerRadius = UDim.new(0, 2)
+                local lol = Instance.new("UICorner")
+                lol.Parent = a_
+                lol.CornerRadius = UDim.new(0, 3)
+                local lol = Instance.new("UICorner")
+                lol.Parent = a0
+                lol.CornerRadius = UDim.new(0, 3)
                 b0.FocusLost:Connect(
                     function()
                         if not tonumber(b0.Text) then
@@ -1099,10 +1145,11 @@ function Library:Window(a, b, c, d, e)
                             percentage = math.clamp(b5, 0, 1)
                             a0:TweenSizeAndPosition(
                                 UDim2.new(percentage, 0, 1, 0),
-                                UDim2.new(percentage / 100, -2, b4.Y.Scale, b4.Y.Offset),
-                                nil,
-                                nil,
-                                0.08
+                                UDim2.new(percentage / 100, -2, 0, 0),
+                                Enum.EasingDirection.Out,
+                                Enum.EasingStyle.Sine,
+                                0.2,
+                                false
                             )
                             local b6 = math.floor(math.floor(aY * percentage * aY) / aY) + aX
                             if aX == b6 then
@@ -1118,10 +1165,11 @@ function Library:Window(a, b, c, d, e)
                             percentage = math.clamp(b5, 0, 1)
                             a0:TweenSizeAndPosition(
                                 UDim2.new(percentage, 0, 1, 0),
-                                UDim2.new(percentage / 100, -2, b4.Y.Scale, b4.Y.Offset),
-                                nil,
-                                nil,
-                                0.08
+                                UDim2.new(percentage / 100, -2, 0, 0),
+                                Enum.EasingDirection.Out,
+                                Enum.EasingStyle.Sine,
+                                0.2,
+                                false
                             )
                             local b6 = math.floor(math.floor(aY * percentage * aY) / aY) + aX
                             if aX == b6 then
@@ -1187,10 +1235,11 @@ function Library:Window(a, b, c, d, e)
                             percentage = math.clamp(b5, 0, 1)
                             a0:TweenSizeAndPosition(
                                 UDim2.new(percentage, 0, 1, 0),
-                                UDim2.new(percentage / 100, -2, b4.Y.Scale, b4.Y.Offset),
-                                nil,
-                                nil,
-                                0.08
+                                UDim2.new(percentage / 100, -2, 0, 0),
+                                Enum.EasingDirection.Out,
+                                Enum.EasingStyle.Sine,
+                                0.2,
+                                false
                             )
                             local b6 = math.floor(math.floor(aY * percentage * aY) / aY) + aX
                             if aX == b6 then
@@ -1212,10 +1261,11 @@ function Library:Window(a, b, c, d, e)
                     percentage = math.clamp(b5, 0, 1)
                     a0:TweenSizeAndPosition(
                         UDim2.new(percentage, 0, 1, 0),
-                        UDim2.new(percentage / 100, -2, b4.Y.Scale, b4.Y.Offset),
-                        nil,
-                        nil,
-                        0.08
+                        UDim2.new(percentage / 100, -2, 0, 0),
+                        Enum.EasingDirection.Out,
+                        Enum.EasingStyle.Sine,
+                        0.2,
+                        false
                     )
                     local b6 = math.floor(math.floor(aY * percentage * aY) / aY) + aX
                     if aX == b6 then
@@ -1236,13 +1286,25 @@ function Library:Window(a, b, c, d, e)
                 local a_ = Instance.new("TextButton")
                 local a0 = Instance.new("TextButton")
                 local b0 = Instance.new("TextBox")
+                local lol = Instance.new("UICorner")
+                lol.Parent = aZ
+                lol.CornerRadius = UDim.new(0, 2)
+                local lol = Instance.new("UICorner")
+                lol.Parent = W
+                lol.CornerRadius = UDim.new(0, 2)
+                local lol = Instance.new("UICorner")
+                lol.Parent = a_
+                lol.CornerRadius = UDim.new(0, 2)
+                local lol = Instance.new("UICorner")
+                lol.Parent = a0
+                lol.CornerRadius = UDim.new(0, 3)
                 local b1 = false
                 local b2
                 aY = aY - aX
                 local bc = false
                 aZ.Name = "Slider"
                 aZ.Parent = P
-                aZ.BackgroundColor3 = Color3.new(1, 1, 1)
+                aZ.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
                 aZ.BackgroundTransparency = 1
                 aZ.Position = UDim2.new(0, 0, 1.86666656, 0)
                 aZ.Size = UDim2.new(0, 178, 0, 39)
@@ -1262,7 +1324,7 @@ function Library:Window(a, b, c, d, e)
                 W.AutoButtonColor = false
                 W.Font = Enum.Font.RobotoMono
                 W.Text = ""
-                W.TextColor3 = Color3.new(1, 1, 1)
+                W.TextColor3 = Color3.fromRGB(230, 230, 230)
                 W.TextSize = 14
                 W.TextStrokeTransparency = 0.4
                 a_.Name = "Slider"
@@ -1276,7 +1338,7 @@ function Library:Window(a, b, c, d, e)
                 a_.AutoButtonColor = false
                 a_.Font = Enum.Font.RobotoMono
                 a_.Text = ""
-                a_.TextColor3 = Color3.new(1, 1, 1)
+                a_.TextColor3 = Color3.fromRGB(230, 230, 230)
                 a_.TextSize = 14
                 a_.TextStrokeTransparency = 0.4
                 a0.Parent = a_
@@ -1292,13 +1354,13 @@ function Library:Window(a, b, c, d, e)
                 b0.Name = "Num"
                 b0.Parent = aZ
                 b0.Active = true
-                b0.BackgroundColor3 = Color3.new(1, 1, 1)
+                b0.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
                 b0.BackgroundTransparency = 1
                 b0.Position = UDim2.new(0, 110, 0, 0)
                 b0.Size = UDim2.new(0, 95, 0, 13)
                 b0.Font = Enum.Font.RobotoMono
                 b0.Text = tostring(aX)
-                b0.TextColor3 = Color3.new(1, 1, 1)
+                b0.TextColor3 = Color3.fromRGB(230, 230, 230)
                 b0.TextSize = 14
                 b0.TextStrokeTransparency = 0.4
                 b0.TextXAlignment = 1
@@ -1309,9 +1371,10 @@ function Library:Window(a, b, c, d, e)
                     a0:TweenSizeAndPosition(
                         UDim2.new(percentage, 0, 1, 0),
                         UDim2.new(percentage / 100, -2, b4.Y.Scale, b4.Y.Offset),
-                        nil,
-                        nil,
-                        0.08
+                        Enum.EasingDirection.Out,
+                        Enum.EasingStyle.Sine,
+                        0.2,
+                        false
                     )
                     local b6 = math.floor(math.floor(aY * percentage * aY) / aY) + aX
                     if aX == b6 then
@@ -1337,9 +1400,10 @@ function Library:Window(a, b, c, d, e)
                             a0:TweenSizeAndPosition(
                                 UDim2.new(percentage, 0, 1, 0),
                                 UDim2.new(percentage / 100, -2, b4.Y.Scale, b4.Y.Offset),
-                                nil,
-                                nil,
-                                0.08
+                                Enum.EasingDirection.Out,
+                        Enum.EasingStyle.Sine,
+                                 0.2,
+                        false
                             )
                             local b6 = math.floor(math.floor(aY * percentage * aY) / aY) + aX
                             if aX == b6 then
@@ -1356,9 +1420,10 @@ function Library:Window(a, b, c, d, e)
                             a0:TweenSizeAndPosition(
                                 UDim2.new(percentage, 0, 1, 0),
                                 UDim2.new(percentage / 100, -2, b4.Y.Scale, b4.Y.Offset),
-                                nil,
-                                nil,
-                                0.08
+                                Enum.EasingDirection.Out,
+                        Enum.EasingStyle.Sine,
+                                 0.2,
+                        false
                             )
                             local b6 = math.floor(math.floor(aY * percentage * aY) / aY) + aX
                             if aX == b6 then
@@ -1437,9 +1502,10 @@ function Library:Window(a, b, c, d, e)
                             a0:TweenSizeAndPosition(
                                 UDim2.new(percentage, 0, 1, 0),
                                 UDim2.new(percentage / 100, -2, b4.Y.Scale, b4.Y.Offset),
-                                nil,
-                                nil,
-                                0.08
+                                Enum.EasingDirection.Out,
+                        Enum.EasingStyle.Sine,
+                                 0.2,
+                        false
                             )
                             local b6 = math.floor(math.floor(aY * percentage * aY) / aY) + aX
                             if aX == b6 then
@@ -1462,9 +1528,10 @@ function Library:Window(a, b, c, d, e)
                     a0:TweenSizeAndPosition(
                         UDim2.new(percentage, 0, 1, 0),
                         UDim2.new(percentage / 100, -2, b4.Y.Scale, b4.Y.Offset),
-                        nil,
-                        nil,
-                        0.08
+                        Enum.EasingDirection.Out,
+                        Enum.EasingStyle.Sine,
+                        0.2,
+                        false
                     )
                     local b6 = math.floor(math.floor(aY * percentage * aY) / aY) + aX
                     if aX == b6 then
@@ -1483,7 +1550,7 @@ function Library:Window(a, b, c, d, e)
                 local l = Instance.new("Frame")
                 bd.Name = "Text box"
                 bd.Parent = P
-                bd.BackgroundColor3 = Color3.new(1, 1, 1)
+                bd.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
                 bd.BackgroundTransparency = 1
                 bd.Position = UDim2.new(0.190909088, 0, 2.13571429, 0)
                 bd.Size = UDim2.new(0, 178, 0, 36)
@@ -1495,7 +1562,7 @@ function Library:Window(a, b, c, d, e)
                 bd.TextXAlignment = Enum.TextXAlignment.Left
                 bd.TextYAlignment = Enum.TextYAlignment.Top
                 be.Parent = bd
-                be.BackgroundColor3 = Color3.new(1, 1, 1)
+                be.BackgroundColor3 = Color3.fromRGB(230, 230, 230)
                 be.BackgroundTransparency = 1
                 be.BorderColor3 = Color3.new(0, 0, 0)
                 be.Position = UDim2.new(0, 0, 0.45999992, 0)
@@ -1505,7 +1572,7 @@ function Library:Window(a, b, c, d, e)
                 be.PlaceholderColor3 = Color3.new(0.764706, 0.764706, 0.764706)
                 be.PlaceholderText = "Type something here!"
                 be.Text = aO
-                be.TextColor3 = Color3.new(1, 1, 1)
+                be.TextColor3 = Color3.fromRGB(230, 230, 230)
                 be.TextSize = 14
                 be.TextStrokeTransparency = 0.4
                 be.TextXAlignment = Enum.TextXAlignment.Left
@@ -1532,29 +1599,6 @@ function Library:Window(a, b, c, d, e)
                     l:TweenSizeAndPosition(UDim2.new(0, 220, 0, 1), UDim2.new(-0.009, 0, 1, 0), nil, nil, 0.5)
                     T(be.Text)
                 end
-            end
-            function S:Textlabel(a)
-                local bd = Instance.new("TextLabel")
-                local be = Instance.new("TextBox")
-                local l = Instance.new("Frame")
-                bd.Name = "Text box"
-                bd.Parent = P
-                bd.BackgroundColor3 = Color3.new(1, 1, 1)
-                bd.BackgroundTransparency = 1
-                bd.Position = UDim2.new(0.190909088, 0, 2.13571429, 0)
-                bd.Size = UDim2.new(0, 178, 0, 17)
-                bd.Font = Enum.Font.RobotoMono
-                bd.Text = a
-                bd.TextColor3 = Color3.new(1, 1, 1)
-                bd.TextSize = 14
-                bd.TextStrokeTransparency = 0.4
-                bd.TextXAlignment = Enum.TextXAlignment.Left
-                bd.TextYAlignment = Enum.TextYAlignment.Top
-                l.Parent = be
-                l.BackgroundColor3 = getgenv().WindowThemeColor
-                l.BorderSizePixel = 0
-                l.Position = UDim2.new(0, 0, 1, 0)
-                l.Size = UDim2.new(0, 1, 0, 0)
             end
             return S
         end
